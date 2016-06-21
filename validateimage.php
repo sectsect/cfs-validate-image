@@ -181,7 +181,7 @@ class cfs_validate_image extends cfs_field
 		$min_w = intval($this->get_option($field, 'minwidth'));
 		$min_h = intval($this->get_option($field, 'minheight'));
 		$maxtext = $this->get_option( $field, 'maxtext' );
-		$mintext = $this->get_option( $field, 'mintext' )
+		$mintext = $this->get_option( $field, 'mintext' );
     ?>
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
