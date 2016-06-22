@@ -139,7 +139,7 @@ class cfs_validate_image extends cfs_field
 		</tr>
 		<tr class="field_option field_option_<?php echo $this->name; ?>">
             <td class="label">
-                <label><?php _e( 'Reject Extension', 'cfs-validateimage' ); ?></label>
+                <label><?php _e( 'Reject mime-type', 'cfs-validateimage' ); ?></label>
             </td>
             <td>
                 <?php
