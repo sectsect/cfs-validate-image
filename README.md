@@ -25,6 +25,7 @@
 * Alert Text (`Image Dimention > Max Dimention`)
 
 #### Change log  
+ * **1.1.0** - Add image mime type validation
  * **1.0.0** - Initial Release
 
 Based on the [CFS Google Maps Add-on](https://github.com/mgibbs189/cfs-google-maps) by [Matt Gibbs](https://github.com/mgibbs189)
