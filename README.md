@@ -2,7 +2,7 @@
 
 ### Add Validate Image dimension field type for [Custom Field Suite](https://wordpress.org/plugins/custom-field-suite/).
 
-#### Displays an alert and reject placement:no_entry_sign: to the image that does not meeting dimention requirements. (Using [sweetalert.js](http://t4t5.github.io/sweetalert/))
+#### Displays an alert and reject insertion to the image that does not meeting dimention requirements.:no_entry_sign: (Using [sweetalert.js](http://t4t5.github.io/sweetalert/))
 
 #### Requirements
 - - -
