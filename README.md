@@ -1,6 +1,6 @@
 # CFS Validate Image Add-on
 
-### Add Validate Image dimension field type for [Custom Field Suite](https://wordpress.org/plugins/custom-field-suite/).
+### Add Validate Image dimension and mime-type field type for [Custom Field Suite](https://wordpress.org/plugins/custom-field-suite/).
 
 #### Displays an alert and reject insertion to the image that does not meeting dimention requirements.:no_entry_sign: (Using [sweetalert.js](http://t4t5.github.io/sweetalert/))
 
