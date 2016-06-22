@@ -23,6 +23,7 @@
 * max height
 * Alert Text (`Image Dimention < Min Dimention`)
 * Alert Text (`Image Dimention > Max Dimention`)
+* Reject mime-type
 
 #### Change log  
  * **1.1.0** - Add image mime type validation
