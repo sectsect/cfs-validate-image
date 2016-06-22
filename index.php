@@ -4,7 +4,7 @@ Plugin Name: CFS - Validate Image Field Add-on
 Plugin URI: https://github.com/sectsect/cfs-validate-image
 Description: Add Validate Image dimension field type for Custom Field Suite.
 Author: SECT INTERACTIVE AGENCY
-Version: 1.0.0
+Version: 1.0.1
 Author URI: https://www.ilovesect.com/
 License: GPL2
 */
