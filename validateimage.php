@@ -220,14 +220,14 @@ class cfs_validate_image extends cfs_field
 		}
 
 
-        .cfs_if_media_frame .media-frame-menu {
+        .cfs_media_frame .media-frame-menu {
             display: none;
         }
 
-        .cfs_if_media_frame .media-frame-title,
-        .cfs_if_media_frame .media-frame-router,
-        .cfs_if_media_frame .media-frame-content,
-        .cfs_if_media_frame .media-frame-toolbar {
+        .cfs_media_frame .media-frame-title,
+        .cfs_media_frame .media-frame-router,
+        .cfs_media_frame .media-frame-content,
+        .cfs_media_frame .media-frame-toolbar {
             left: 0;
         }
         </style>
@@ -236,25 +236,25 @@ class cfs_validate_image extends cfs_field
         (function($) {
             $(function() {
 
-                var cfs_if_media_frame;
+                var cfs_media_frame;
 
                 $(document).on('click', '.add.cfsimgfld', function(e) {
                     $this = $(this);
 
-                    if (cfs_if_media_frame) {
-                        cfs_if_media_frame.open();
+                    if (cfs_media_frame) {
+                        cfs_media_frame.open();
                         return;
                     }
 
-                    cfs_if_media_frame = wp.media.frames.cfs_if_media_frame = wp.media({
-                        className: 'media-frame cfs_if_media_frame',
+                    cfs_media_frame = wp.media.frames.cfs_media_frame = wp.media({
+                        className: 'media-frame cfs_media_frame',
                         frame: 'post',
                         multiple: false
                     });
 
-                    cfs_if_media_frame.on('insert', function() {
+                    cfs_media_frame.on('insert', function() {
 
-                        var attachment = cfs_if_media_frame.state().get('selection').first().toJSON();
+                        var attachment = cfs_media_frame.state().get('selection').first().toJSON();
                         if ('image' == attachment.type && 'undefined' != typeof attachment.sizes) {
                             file_url = attachment.sizes.full.url;
                             if ('undefined' != typeof attachment.sizes.thumbnail) {
@@ -328,8 +328,8 @@ class cfs_validate_image extends cfs_field
                         $this.siblings('.file_url').html(file_url);
                     });
 
-                    cfs_if_media_frame.open();
-                    cfs_if_media_frame.content.mode('upload');
+                    cfs_media_frame.open();
+                    cfs_media_frame.content.mode('upload');
                 });
 
                 $(document).on('click', '.remove.cfsimgfld', function() {
