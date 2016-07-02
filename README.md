@@ -21,8 +21,8 @@
 * min height
 * max width
 * max height
-* Alert Text (`Image Dimention < Min Dimention`)
-* Alert Text (`Image Dimention > Max Dimention`)
+* Alert Message (`Image Dimention < Min Dimention`)
+* Alert Message (`Image Dimention > Max Dimention`)
 * Setting for rejecting a specific image mime-type
 
 #### Change log  
