@@ -15,14 +15,14 @@ class cfs_validate_image_addon
 {
     function __construct() {
         add_filter('cfs_field_types', array($this, 'cfs_field_types'));
-		add_action( 'plugins_loaded', 'cfsvalidateimage_load_textdomain' );
+		add_action('plugins_loaded', 'cfsvalidateimage_load_textdomain');
         function cfsvalidateimage_load_textdomain() {
-			load_plugin_textdomain( 'cfs-validateimage', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
+			load_plugin_textdomain('cfs-validateimage', false, plugin_basename(dirname(__FILE__)) . '/languages');
         }
     }
 
-    function cfs_field_types( $field_types ) {
-        $field_types['validate_image'] = dirname( __FILE__ ) . '/validateimage.php';
+    function cfs_field_types($field_types) {
+        $field_types['validate_image'] = dirname(__FILE__) . '/validateimage.php';
         return $field_types;
     }
 }
