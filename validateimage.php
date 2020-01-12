@@ -185,7 +185,7 @@ class cfs_validate_image extends cfs_field {
 						)
 					);
 				?>
-				<p style="margin-top: 5px;">Dafault: <code>The image Dimention has exceeded!</code></p>
+				<p style="margin-top: 5px;">Default: <code>The image Dimention has exceeded!</code></p>
 			</td>
 		</tr>
 		<tr class="field_option field_option_<?php echo $this->name; ?>">
@@ -202,7 +202,7 @@ class cfs_validate_image extends cfs_field {
 						)
 					);
 				?>
-				<p style="margin-top: 5px;">Dafault: <code>The image Dimention is not enough!</code></p>
+				<p style="margin-top: 5px;">Default: <code>The image Dimention is not enough!</code></p>
 			</td>
 		</tr>
 		<?php
